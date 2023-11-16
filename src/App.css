@@ -1,0 +1,37 @@
+.container {
+  background-color: #e0e3ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 97vh;
+  border-radius: 12px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 7px;
+  margin: 10px;
+}
+
+.navbar button {
+  margin-left: 15px;
+  padding: 10px 15px;
+  width: 50%;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #2A2F4F;
+
+}
+@media screen and (max-width:744px)
+{
+ .navbar{
+  width: 60%;
+ }       
+}
