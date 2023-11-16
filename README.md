@@ -10,7 +10,8 @@ Welcome to the Greenie Task project! This ReactJS website enables account creati
 - *User Details Table:* Display user information in a table format with fields like Username, ID, Email, Phone, Creation Date, and a hidden Password.
 - *Context API:* Seamlessly manage user data across components.
 
-### User Details Popup
+### User Details Popup![Screenshot 2023-11-16 120929](https://github.com/rohit0796/Greenie/assets/91247476/a22b129d-24f5-4c97-b1ad-cddd06dda770)
+
 
 - Clicking on a user details table row opens a popup.
 - The popup shows additional user details, with options to generate a report or delete the user.
@@ -24,23 +25,27 @@ Welcome to the Greenie Task project! This ReactJS website enables account creati
 ## How to Run Project
 
 1. *Clone the Repository:*
-   bash
+   ```bash
    git clone github-repo-link
 2. **Install Dependecies:**
-   bash
+   ```bash
    npm install
+   ```
    OR
-   bash
+   ```bash
    yarn install
+   ```
 3. **Run Development server:**
-   bash
+   ```bash
    yarn run dev
+   ```
    OR
-   bash
+   ```bash
    npm run dev
+   ```
 
 ## Project Structure
-bash
+```bash
 greenie-task/
 │
 ├── src/
@@ -54,10 +59,11 @@ greenie-task/
 │   │   ├── ContextHolder.jsx/
 │   ├── App.jsx
 │   ├── App.css
-│   ├── main.jsx
+│   ├── main.jsx![Screenshot 2023-11-16 120510](https://github.com/rohit0796/Greenie/assets/91247476/0e318409-facd-4d32-8ac2-f5c7e4141eb1)
+
 ├── public/
 ├── .gitignore
 ├── package.json
 ├── yarn.lock
 └── ...
-```
+![Screenshot 2023-11-16 120527](https://github.com/rohit0796/Greenie/assets/91247476/85d67e6b-eb22-4293-8093-aef57e1fe9dc)
