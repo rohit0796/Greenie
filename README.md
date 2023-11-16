@@ -10,7 +10,7 @@ Welcome to the Greenie Task project! This ReactJS website enables account creati
 - *User Details Table:* Display user information in a table format with fields like Username, ID, Email, Phone, Creation Date, and a hidden Password.
 - *Context API:* Seamlessly manage user data across components.
 
-### User Details Popup![Screenshot 2023-11-16 120929](https://github.com/rohit0796/Greenie/assets/91247476/a22b129d-24f5-4c97-b1ad-cddd06dda770)
+### User Details Popup
 
 
 - Clicking on a user details table row opens a popup.
@@ -21,6 +21,9 @@ Welcome to the Greenie Task project! This ReactJS website enables account creati
 - Fill in user details (Username, Email, Phone, Password) and submit.
 - Newly created user details are added to the Context API data store.
 - After the new user details are submitted and data is being populated in the context API data store then the data is updated in the user details table.
+## Lighthouse Performence
+-The lighthouse Performence score is 92 in incognito mode. Here is the screenshot attached.
+![Screenshot 2023-11-16 120929](https://github.com/rohit0796/Greenie/assets/91247476/db29087a-e2d8-4a70-8060-149f4defe648)
 
 ## How to Run Project
 
@@ -59,7 +62,7 @@ greenie-task/
 │   │   ├── ContextHolder.jsx/
 │   ├── App.jsx
 │   ├── App.css
-│   ├── main.jsx![Screenshot 2023-11-16 120510](https://github.com/rohit0796/Greenie/assets/91247476/0e318409-facd-4d32-8ac2-f5c7e4141eb1)
+│   ├── main.jsx
 
 ├── public/
 ├── .gitignore
