@@ -1,8 +1,63 @@
-# React + Vite
+# Greenie Task - ReactJS Website with Account Creation and User Details
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Greenie Task project! This ReactJS website enables account creation and user details viewing. The styling is done using CSS, and a Context API manages the centralized user data store across components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### User Details Page
+
+- *Search Bar:* Used to filter user details to be displayed.
+- *User Details Table:* Display user information in a table format with fields like Username, ID, Email, Phone, Creation Date, and a hidden Password.
+- *Context API:* Seamlessly manage user data across components.
+
+### User Details Popup
+
+- Clicking on a user details table row opens a popup.
+- The popup shows additional user details, with options to generate a report or delete the user.
+
+### Account Creation Page
+
+- Fill in user details (Username, Email, Phone, Password) and submit.
+- Newly created user details are added to the Context API data store.
+- After the new user details are submitted and data is being populated in the context API data store then the data is updated in the user details table.
+
+## How to Run Project
+
+1. *Clone the Repository:*
+   bash
+   git clone github-repo-link
+2. **Install Dependecies:**
+   bash
+   npm install
+   OR
+   bash
+   yarn install
+3. **Run Development server:**
+   bash
+   yarn run dev
+   OR
+   bash
+   npm run dev
+
+## Project Structure
+bash
+greenie-task/
+│
+├── src/
+│   ├── components/
+│   │   ├── UserDetails.jsx/
+│   │   ├── AccountCreation.jsx/
+│   │   ├── accountcreate.css/
+│   │   ├── userdetail.css/
+│   ├── context/
+│   │   ├── context.js/
+│   │   ├── ContextHolder.jsx/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+├── public/
+├── .gitignore
+├── package.json
+├── yarn.lock
+└── ...
+```
